@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -44,37 +44,16 @@
 
 	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <section class="menu">
-          <h2><strong>  Welcome to the Milkyway Star Map </strong></h2>
+      		<h2><strong>  Welcome to the Milkyway Star Map </strong></h2>
 
-          <h2>
-              <strong>  Info : </strong>
-              <h5>The Milkyway starmap is a public program for all users with the open database filled with information about different stars. Any user is able to View, Add or Delete information from here.</h5>
-          </h2>
+      		<h2><strong>  Info : </strong>
+            <h5>The Milkyway starmap is a public program for all users with the open database filled with information about different stars. Any user is able to View, Add or Delete information from here.</h5>
+          </h2>  
 
-          <h3>Current Stars:</h3>
-          <table>
-              <thead>
-              <th>Star Name</th>
-              <th>Constell</th>
-              </thead>
-              <tbody>
-                  {{#each star}}
-                  <tr>
-                      <td>{{{star_name}}}</td>
-                      <td>{{constell}}</td>
-                      <td>{{founder}}</td>
-                  </tr>
-                  {{/each}}
-              </tbody>
-          </table>
-
-
-          <h2>
-              <strong>  Do you want to : </strong>
-              <a href="viewstars.html" class="w3-button w3-ripple w3-hover-pink w3-round w3-xlarge w3-black">View The Database?</a>
-              <a>
-                  |  or  |<a>
-                      <a href="addstar.html" class="w3-button w3-ripple w3-hover-pink w3-round w3-xlarge w3-black">Add New Information?</a>
+          <h2><strong>  Do you want to : </strong>
+            <a href='/viewstars' class="w3-button w3-ripple w3-hover-pink w3-round w3-xlarge w3-black">View The Database?</a>
+            <a>|  or  |<a> 
+            <a href='/addstar' class="w3-button w3-ripple w3-hover-pink w3-round w3-xlarge w3-black">Add New Information?</a>
           </h2>
 
       </section>
