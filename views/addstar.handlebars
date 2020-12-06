@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add new Star</title>
+
+
+</head>
+
+
+
+<body>
+    <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-image: url('https://images.template.net/wp-content/uploads/2016/11/28131922/space-art.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Tangerine', serif;
+            font-size: 56px;
+            color: white;
+        }
+
+
+        .star-search-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+        }
+    </style>
+
+
+
+    <header>
+
+
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <section class="menu">
+
+            <h2>
+                <strong>  Go To : </strong>
+                <a href="index.html" class="w3-button w3-ripple w3-hover-pink w3-round w3-large">Home Page </a>
+                <a href="viewstars.html" class="w3-button w3-ripple w3-hover-pink w3-round w3-large">View Page </a>
+            </h2>
+        </section>
+
+
+        <div class="star-search-container">
+
+            <h3><strong> Add new star : </strong></h3>
+            <form id="addstar" action="/star" method="post">
+                <label for="starname">Name of Star:</label><br>
+                <input type="text" name="star_name"><br>
+                <label for="constname">Constellation:</label><br>
+                <input type="text" name="constell_name"><br>
+                <label for="founder">Founder of Star:</label><br>
+                <input type="text" name="founder_name"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </header>
+
+
+
+</body>
+
+
+</html>
+
